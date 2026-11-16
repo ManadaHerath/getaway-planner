@@ -1,8 +1,16 @@
 {
-  "client_id": "https://ManadaHerath.github.io/getaway-planner/oauth/client-metadata.json",
+  "client_id": "https://manadaherath.github.io/getaway-planner/oauth/client-metadata.json",
   "client_name": "Getaway Planner",
-  "redirect_uris": ["http://localhost:6274/oauth/callback", "http://localhost:6274/oauth/callback/debug"],
-  "grant_types": ["authorization_code", "refresh_token"],
-  "response_types": ["code"],
+  "redirect_uris": [
+    "http://127.0.0.1:6274/oauth/callback",
+    "http://127.0.0.1:6274/oauth/callback/debug"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
   "token_endpoint_auth_method": "none"
 }
